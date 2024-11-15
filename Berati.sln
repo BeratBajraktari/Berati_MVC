@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeratiWeb", "BeratiWeb\BeratiWeb.csproj", "{13F22E46-FEC2-4239-AB85-3F850A29000A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeratiBookWeb", "BeratiWeb\BeratiBookWeb.csproj", "{13F22E46-FEC2-4239-AB85-3F850A29000A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeratiBook.DataAccess", "Berati.DataAccess\BeratiBook.DataAccess.csproj", "{A34FCCA1-2B28-47D7-B151-18072B1EE94B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeratiBook.Models", "Berati.Models\BeratiBook.Models.csproj", "{75ED1076-1B1D-4B8E-AC79-AFD91DFC133F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeratiBook.Utility", "Berati.Utility\BeratiBook.Utility.csproj", "{97361F22-16AD-44DF-8287-D206D3BEC094}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{13F22E46-FEC2-4239-AB85-3F850A29000A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13F22E46-FEC2-4239-AB85-3F850A29000A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13F22E46-FEC2-4239-AB85-3F850A29000A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34FCCA1-2B28-47D7-B151-18072B1EE94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34FCCA1-2B28-47D7-B151-18072B1EE94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34FCCA1-2B28-47D7-B151-18072B1EE94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34FCCA1-2B28-47D7-B151-18072B1EE94B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75ED1076-1B1D-4B8E-AC79-AFD91DFC133F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75ED1076-1B1D-4B8E-AC79-AFD91DFC133F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75ED1076-1B1D-4B8E-AC79-AFD91DFC133F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75ED1076-1B1D-4B8E-AC79-AFD91DFC133F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97361F22-16AD-44DF-8287-D206D3BEC094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97361F22-16AD-44DF-8287-D206D3BEC094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97361F22-16AD-44DF-8287-D206D3BEC094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97361F22-16AD-44DF-8287-D206D3BEC094}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
